@@ -1,0 +1,40 @@
+Build ready to start ▶️
+>> Cloning github.com/mindwelledward43/mindwelledward0.git commit sha 05448dd5f52cf70b73464632bce7c8b3dc5d7002 into /workspace
+Initialized empty Git repository in /workspace/.git/
+From https://github.com/mindwelledward43/mindwelledward0
+ * branch            05448dd5f52cf70b73464632bce7c8b3dc5d7002 -> FETCH_HEAD
+HEAD is now at 05448dd Merge branch 'AbhishekSuresh2:main' into main
+Previous image with name "registry01.prod.koyeb.com/k-b29f5bda-a2c9-4965-a3c1-d63e59c656f1/053d35a8-6216-4c6d-a834-72b565d440e4:latest" not found
+3 of 5 buildpacks participating
+heroku/nodejs-engine      2.6.2
+heroku/nodejs-npm-install 2.6.2
+heroku/procfile           2.0.2
+Layer cache not found
+[0m[1m[35m
+[Heroku Node.js Engine Buildpack]
+[0m[0m[1m[35m
+[Checking Node.js version]
+[0mNode.js version not specified, using 20.x
+Resolved Node.js version: 20.10.0
+[0m[1m[35m
+[Installing Node.js distribution]
+[0mDownloading Node.js 20.10.0
+Extracting Node.js 20.10.0
+Installing Node.js 20.10.0
+[1;35m[0m
+[1;35m# Heroku Node.js npm Install Buildpack[0m
+
+
+[0;31m! Couldn't determine Node.js package manager. Package manager lockfile not found.[0m
+[0;31m![0m
+[0;31m! A lockfile from a supported package manager is required to install Node.js dependencies. The package.json for this project specifies dependencies, but there isn't a lockfile.[0m
+[0;31m![0m
+[0;31m! To use npm to install dependencies, run `[0;33mnpm install[0m[0;31m`. This command will generate a `[0;33mpackage-lock.json[0m[0;31m` lockfile.[0m
+[0;31m![0m
+[0;31m! Or, to use yarn to install dependencies, run `[0;33myarn install[0m[0;31m`. This command will generate a `[0;33myarn.lock[0m[0;31m` lockfile.[0m
+[0;31m![0m
+[0;31m![0m
+[0;31m! Ensure the resulting lockfile is committed to the repository, then try again.[0m
+
+[31;1mERROR: [0mfailed to build: exit status 1
+exit status 51
