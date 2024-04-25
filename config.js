@@ -12,7 +12,7 @@ module.exports = {
   ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f","deb80cd12ababea1c9b9a8ad6ce3fab2","78c84c62b32a88e86daf87dd509a657a"],
   ALIVE_LOGO: process.env.ALIVE_LOGO || "https://i.imgur.com/c9CNgT5.jpeg",
-  SESSION_ID:process.env.SESSION_ID || "",
+  SESSION_ID:process.env.SESSION_ID || "BETA:ScornMuscles",
   WARN_COUNT:process.env.WARN_COUNT || 3,
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
@@ -20,6 +20,7 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   MDB: process.env.MDB || "mongodb+srv://tshephang:ducky1@ducky.ummj1kc.mongodb.net/?retryWrites=true&w=majority",
   LANG: process.env.LANG ||  'EN',
+  Hi:Hey you l am Mindwell Edward how are you doing 
   HANDLERS: process.env.HANDLERS === 'false' || process.env.HANDLER === 'null' ? '^': '^',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "main",
